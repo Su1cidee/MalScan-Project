@@ -1,0 +1,38 @@
+# === Core Analysis ===
+pefile==2023.2.7              # PE file parsing
+yara-python==4.3.1            # Pattern matching
+lief==0.14.0                  # Multi-format executable analysis
+python-magic==0.4.27          # File type detection
+
+# === Dynamic Analysis ===
+volatility3==2.4.0            # Memory forensics
+frida==16.1.4                 # Runtime instrumentation
+scapy==2.5.0                  # Network traffic analysis
+psutil==5.9.5                 # Process monitoring
+pylibemu==0.3.0               # Shellcode emulation
+
+# === Sandboxing ===
+docker==6.1.3                 # Containerized analysis
+libvirt-python==9.4.0         # Virtualization control
+python-cuckoo==1.1.1            # Sandbox API (optional)
+
+# === Reporting ===
+pandas==2.0.3                 # Data analysis
+Jinja2==3.1.2                 # HTML report templates
+pdfkit==1.0.0                 # PDF generation (requires wkhtmltopdf)
+Pillow==10.0.0                # Screenshot capture
+
+# === Utilities ===
+tqdm==4.65.0                  # Progress bars
+python-dotenv==1.0.0          # Environment variables
+click==8.1.3                  # CLI interface
+colorama==0.4.6               # Console colors
+
+# === Testing ===
+pytest==7.4.0                 # Unit testing
+pytest-mock==3.11.1           # Mocking
+hypothesis==6.82.0            # Fuzz testing
+
+# === Security ===
+cryptography==41.0.3          # Sample encryption
+pywin32==306                  # Windows API (Windows only)
