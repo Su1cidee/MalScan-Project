@@ -1,6 +1,6 @@
 # MalScan – Advanced Malware Analysis Tool
 
-MalScan is a Python-based malware analysis system designed to combine the efficiency of local execution with the comprehensive detection capabilities of cloud-based scanning. It integrates directly into the Windows operating system, allowing users to scan files via the right-click context menu. The tool communicates with the VirusTotal API to perform multi-engine malware detection and automatically generates detailed reports summarizing results, detections, and file metadata.
+MalScan is a Python-based malware analysis system designed to combine the efficiency of local execution with the comprehensive detection capabilities of cloud-based scanning. It integrates directly into the Windows operating system, allowing users to scan files via the right-click context menu. The tool communicates with the VirusTotal API to perform multi-engine malware detection and automatically generates detailed reports summarizing results, detections.
 
 ---
 
@@ -112,3 +112,4 @@ GitHub: [https://github.com/Su1cidee](https://github.com/Su1cidee)
 ---
 
 MalScan demonstrates how an API-driven malware scanning system can combine transparency, performance, and usability — delivering an efficient and practical solution for modern malware analysis.
+
